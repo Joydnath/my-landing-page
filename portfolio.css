@@ -222,6 +222,7 @@ hr{
 .marketing-image{
     width: 40%;
     display: inline-block;
+    vertical-align: baseline;
     /* position: relative; */
 }
 
@@ -827,6 +828,11 @@ hr{
     #a-animation{
         max-height: 50px;
         overflow: hidden;
+    }
+
+    .marketing-image{
+        height: 450px;
+        width: 50%;
     }
 
 
