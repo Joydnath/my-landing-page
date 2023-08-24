@@ -1,0 +1,834 @@
+/* Global Section */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a{
+    font-family: 'Kanit', sans-serif;
+}
+
+p{
+    font-family: 'Ubuntu', serif;
+}
+
+button{
+    padding: 13px 27px ;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Kanit', sans-serif;
+}
+
+button:hover{
+    background: transparent;
+    cursor: pointer;
+}
+
+hr{
+    width: 85%;
+    margin: auto;
+}
+
+
+
+
+/* Local Section */
+
+#nav-animation{
+    max-height: 25px;
+    overflow: hidden;
+}
+
+
+.header{
+    background-color: #F8F3EC;
+}
+
+.button-for-toggle{
+    margin: 10px 0 0px;
+}
+
+.navigation{
+    margin: 5px 0 5px 80px;
+}
+
+.navbar-text{
+    margin: 0 14px;
+}
+
+.header-icons{
+    margin-right: 80px;
+}
+
+.header-icon-individual{
+    border-radius: 100%;
+    border: 1px solid rgb(207, 207, 207);
+    padding: 6px;
+    margin: 0 11px;
+}
+
+.logo-text{
+    padding: 0 20px;
+    margin: 0 ;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    letter-spacing: 4px;
+}
+
+
+/* header-box*/
+
+.header-title-box{
+    display: inline;
+    width: 100%;
+    margin: 5% auto;
+    align-items: center;
+}
+
+.header-box-text{
+    display: inline-block;
+    width: 40%;
+    margin: 5% 0 0 7% ;
+    padding: 5% 3% 5% 5%;
+    bottom: 60px;
+    position: relative;
+
+}
+
+.header-title{
+    font-size: 3.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.header-subtitle{
+    font-size: 1.2rem;
+    color: #888888;
+    font-family: 'Kanit', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.header-box-images{
+    margin: 5%;
+    display: inline-block;
+    width: 40%;
+    padding: 0 3%;
+
+}
+
+.header-box-image{
+    width: 40%;
+    margin-right: 5%;
+}
+
+/*.first-box-review-container{
+    max-height: 50px;
+    overflow: hidden;
+}*/
+
+.header-button{
+    margin-bottom: 15px;
+    display: inline-block;
+    position: relative;
+    border: 1px solid #F6D88C;
+    background-color: #F6D88C;
+}
+
+.header-button:hover{
+    border: 1px solid rgb(98, 98, 98);
+}
+
+.first-box-images{
+    display: inline-block;
+    position: relative;
+    margin: 0 0 0 20px;
+    border-radius: 40px;
+    border: 1px solid rgba(177, 176, 176, 0.537);
+}
+
+/* .review-image{
+    border: 1px solid rgb(98, 98, 98);
+} */
+
+.first-box-rating{
+    display: inline-block;
+    vertical-align: top;
+    color: rgb(135, 135, 135);
+}
+
+.rating-icon{
+    color: #F6D88C;
+}
+
+.header-box-image{
+    vertical-align: bottom;
+}
+
+/* Trusted Section  */
+.trusted-section{
+    margin: 8%;
+    border-left: 5px solid #F6D88C;
+
+}
+
+.trusted-body{
+    display: inline-block;
+    width: 30%;
+    margin: 40px 50px 0;
+}
+
+.trusted-heading{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.trusted-subheading{
+    font-size: 1rem;
+    color: #888888;
+}
+
+.trusted-logo{
+    display: inline-block;
+    width: 50%;
+    margin: 70px 0 40px 100px;
+    /* padding: 30px; */
+}
+
+.trusted-social{
+    width: 25%;
+    margin: 10px 10px;
+}
+
+/* -------------Marketing Section ------------- */
+.social-marketing{
+    background-color: #181817;
+    /* color: #fff; */
+    align-items: center;
+    padding: 3%;
+}
+
+.marketing-container{
+    margin: 0 auto;
+    width: 80%;
+    align-items: center;
+    /* padding: 0 10%; */
+    text-align: center;
+}
+
+.marketing-image{
+    width: 40%;
+    display: inline-block;
+    /* position: relative; */
+}
+
+.marketing-picture{
+    width: 100%;
+    vertical-align: baseline;
+}
+
+.marketing-box{
+    width: 30%;
+    display: inline-block;
+    text-align: left;
+    /* position: relative; */
+    margin-top: 10%;
+    margin-left: 120px;
+}
+
+.marketing-header{
+
+    font-size: 2.6rem;
+    padding-bottom: 25px;
+    color: #fff;
+}
+
+.marketing-list{
+    padding-bottom: 25px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 2;
+}
+
+.marketing-icon{
+    color: #F6D88C;
+    margin-right: 10px;
+}
+
+.marketing-text{
+    color: #656565;
+    font-size: 1.1rem;
+    padding-bottom: 25px;
+}
+
+.marketing-button{
+    background-color: #F6D88C;
+    border: 1px solid #F6D88C;
+}
+
+.marketing-button:hover{
+    color: #F6D88C;
+    border: 1px solid #F6D88C;
+}
+
+/* -------------Provide Section ------------ */
+.provide{
+    width: 100%;
+    background-color: #F8F3EC;
+}
+
+.provide-contents{
+    width: 90%;
+    margin: auto;
+    background-color: #F8F3EC;
+}
+
+.provide-text{
+    width: 38%;
+    margin: 0 auto ;
+    background-color: #F8F3EC;
+    text-align: center;
+    padding: 7% 0 4%;
+}
+
+
+.provide-heading{
+    font-size: 3rem;
+}
+.provide-subheading{
+    font-size: 1.2rem;
+}
+
+.provide-container{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+
+}
+
+.content-container{
+    width: 20rem;
+    display: inline-block;
+    margin: 0 2% 4%;
+    text-align: left;
+    padding: 38px;
+    background-color: #EAE4DC;
+}
+
+.content-container-heading{
+    font-size: 2.3rem;
+}
+.content-container-subheading{
+    font-size: 0.8rem;
+}
+
+.provide-icon{
+    border: 1px solid #b8b8b8;
+    padding: 3px;
+    border-radius: 100%;
+    color: #cbb16c;
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.provide-link{
+    color: #cbb16c;
+}
+
+.provide-link:hover{
+    color: #F6D88C;
+}
+
+/* --------Advertisement-------- */
+
+.advertisement{
+    background-image: url(Images/mask-group.png);
+    background-color: #181817;
+    background-size: cover;
+    background-position: center;
+    padding: 6%;
+    color: #fff;
+}
+
+.advertisement-container{
+    text-align: center;
+}
+
+.advertisement-heading{
+    padding: 2%;
+    width: 40%;
+    margin: 0 auto;
+}
+.advertisement-subheading{
+    padding: 2%;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.advertisement-button{
+    margin: 2%;
+}
+
+.advertisement-button:hover{
+    color: #F6D88C;
+}
+
+.last-info-middle-box-form{
+    border: 1px solid red;
+
+}
+
+/* ---------Last Box-------- */
+.last-container{
+    background-color: #fff;
+    width: 100%;
+    padding: 6% 10%;
+}
+
+.last-info-container{
+    width: 100%;
+}
+
+.last-info-top-box{
+    width: 30%;
+    margin: 0 auto 3%;
+    text-align: center;
+}
+
+.last-info-top-heading{
+    color: #181817;
+    font-family: 'Pacifico', cursive;
+}
+
+.last-info-top-heading{
+    color: #181817;
+}
+
+.last-info-middle-box{
+    width: 75%;
+    margin: 0 auto 3%;
+}
+
+.last-info-middle-heading{
+    margin:  1% ;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 100;
+    color: #181817;
+}
+
+.last-info-middle-subheading{
+    text-align: center;
+    margin-bottom: 5%;
+    color: #181817;
+}
+
+.last-box-form-group{
+    width: 50%;
+    display: inline-block;
+    left: 10%;
+}
+
+.last-info-last-box{
+    width: 60%;
+    margin: 0 auto 3%;
+}
+
+.subscribe-button{
+    display: inline-block;
+    padding: 18.5px 37px;
+    border-radius: 0px 10px 10px 0px;
+    margin-left: -4px;
+    border: 1px solid #F6D88C;
+    background-color: transparent;
+    color: #F6D88C;
+}
+
+.subscribe-button:hover{
+    background-color: #F6D88C;
+    color: black;
+}
+
+.last-box-form-input{
+    display: inline-block;
+    width: 70%;
+    padding: 29.3px 30px 32px;
+    border-radius: 10px 0 0 10px;
+    margin: 0 0 0 40px;
+    border: 1px solid #F6D88C;
+    background-color: transparent;
+    color: #F6D88C;
+}
+
+.last-info-last-box{
+    /* background-color: #fdf9f5; */
+    margin-top: 4%;
+    text-align: center;
+    color: #181817;
+    text-align: center;
+    width: 30%;
+    border-left: 5px solid #F6D88C;
+    border-right: 5px solid #F6D88C;
+    padding: 1%;
+    border-radius: 20px;
+
+}
+
+.last-info-last-heading{
+    font-size: 1.3rem;
+
+}
+
+.last-info-last-subheading{
+    font-size: 0.9rem
+}
+
+.last-box-icons{
+    margin: 0;
+}
+
+
+/* ----------Footer section--------- */
+.footer{
+    margin-bottom: -20px;
+}
+
+.footer-container{
+    background-color: #181817;
+    color: grey;
+    height: 4%;
+}
+
+.footer-first-text{
+    display: inline-block;
+    letter-spacing: 2px;
+    margin: 3% 40% 3% 7%;
+}
+
+.footer-inside-container{
+    display: inline-block;
+    width: 20%;
+}
+
+.footer-terms{
+    display: inline-block;
+    margin-right: 10%;
+}
+
+.footer-rules{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+/* ----------Media queries------- */
+/* Minimum width  */
+@media  screen and (max-width: 700px) {
+    /* Global section  */
+    button{
+        padding: 8px 15px ;
+        font-size: 0.8rem;
+    }
+
+    /* Local section  */
+    .header-icon-individual{
+        margin: 0;
+    }
+    .logo-text{
+        font-size: 1.2rem;
+    }
+    .navigation{
+        margin: 0 0 0 4px;
+        width: 100px;
+    }
+    .navbar-collapse{
+        align-items: start;
+    }
+    .header-icons{
+        margin-right: 0;
+    }
+    .top-icons{
+        display: none;
+    }
+    /* Header box  */
+    .header-box-text{
+        margin-left: 80px;
+        width: 70%;
+    }
+    .header-box-image{
+        width: 100%;
+    }
+    .header-title{
+        font-size: 2rem;
+        margin-top: 60px;
+    }
+    .first-box-rating{
+        font-size: 0.8rem;
+    }
+    /* Body Image  */
+    .header-box-images{
+        margin-left: 80px;
+        width: 65%;
+    }
+    .header-box-image{
+        margin-bottom: 14px;
+    }
+
+    .trusted-container{
+        width: 100%;
+        align-items: center;
+    }
+    .trusted-body{
+        width: 80%;
+    }
+    .trusted-logo{
+        margin: 10px  50px;
+        width: 80%;
+    }
+    /* Marketing-section */
+    .marketing-image{
+        width: 80%;
+    }
+
+    .marketing-box{
+        width: 80%;
+        margin-left: 0;
+    }
+    .marketing-header{
+        font-size: 2rem;
+    }
+    .marketing-list{
+        font-size: 0.9rem;
+    }
+    .marketing-text{
+        font-size: 0.9rem;
+    }
+    /* Provide Section  */
+    .content-container{
+        width: 80%;
+    }
+    /* Advertisement  */
+    .advertisement{
+        padding: 3%;
+    }
+    .advertisement-heading{
+        width: 60%;
+        font-size: 1.7rem;
+    }
+    .advertisement-subheading{
+        width: 50%;
+        font-size: 0.5rem;
+    }
+
+    /* Last box  */
+    .last-info-top-box{
+        width: 70%;
+        margin: 20% auto;
+    }
+    .last-info-top-subheading{
+        font-size: 1rem;
+    }
+
+    .last-info-middle-box{
+        width: 100%;
+
+    }
+    .last-info-middle-subheading{
+        margin: 0 auto 20%;
+        width: 65%;
+    }
+    .last-box-form-input{
+        width: 100%;
+        margin: 0;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    .subscribe-button{
+        border-radius: 10px;
+        margin: 5% 30% 20%;
+        text-align: center;
+
+    }
+
+    .last-info-last-box{
+        width: 92%;
+    }
+    .last-box-last-heading{
+        font-size: 0.8rem;
+    }
+    .last-box-last-subheading{
+        font-size: 0.5rem;
+    }
+
+    /* Footer section  */
+    /* .footer-container{
+        margin: 0;
+    } */
+    .footer-first-text{
+        letter-spacing: normal;
+        display: block;
+        width: 90%;
+        padding-top: 20px;
+        text-align: center;
+    }
+    .footer-inside-container{
+        display: block;
+        width: 90%;
+        margin-left: 20px;
+        text-align: center;
+    }
+}
+
+
+
+/* Medium width  */
+
+@media (max-width: 1099px) and (min-width: 701px)   {
+    button{
+        padding: 10px 13px;
+    }
+    .navigation{
+        width: 100px;
+    }
+    .navbar-collapse{
+        align-items: start;
+    }
+    /* Header-box  */
+    .header-box-text{
+        width: 30%;
+    }
+    .header-box-images{
+        margin-top: 15%;
+        width: 50%;
+        vertical-align: top;
+    }
+    .header-title{
+        font-size: 2.3rem;
+        margin-top: 60px;
+    }
+    .header-subtitle{
+        font-size: 1rem;
+    }
+    .first-box-images{
+        display: block;
+        border: none;
+        margin-left: 0;
+    }
+    /* Body Images  */
+
+    .trusted-logo{
+        margin: 60px 0 0 ;
+        position: absolute;
+
+    }
+    /* Marketing-section */
+    .social-marketing{
+        padding: 0;
+    }
+    .marketing-container{
+        width: 100%;
+    }
+    .marketing-image{
+        width: 40%;
+    }
+    .marketing-box{
+        margin: 25px 15px;
+        width: 50%;
+    }
+    .marketing-header{
+        font-size: 2rem;
+    }
+    .marketing-list{
+        font-size: 0.9rem;
+    }
+    .marketing-text{
+        font-size: 0.9rem;
+    }
+
+    /* Provide Section  */
+    .content-container{
+        width: 40%;
+    }
+
+    .content-container-heading{
+        font-size: 1.8rem;
+    }
+
+    /* Advertisement */
+    .advertisement{
+        padding: 3%;
+    }
+    .advertisement-heading{
+        width: 60%;
+        font-size: 2rem;
+    }
+    .advertisement-subheading{
+        width: 60%;
+        font-size: 0.8rem;
+    }
+    /* last box  */
+    .last-info-top-box{
+        margin: 6% auto 10%;
+        text-align: center;
+        width: 50%;
+    }
+    .last-info-middle-box{
+        margin: 0 auto 10%;
+        width: 72%;
+    }
+    .last-box-form-input{
+        width: 55%;
+        margin-left: 29px;
+        margin-top: 16%;
+    }
+    .last-info-middle-heading{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .last-info-middle-subheading{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .last-info-last-box{
+        width: 65%;
+    }
+    .footer-first-text{
+        margin: 3% 19% 3% 7%;
+    }
+    .footer-inside-container{
+        font-size: 0.8rem;
+        width: 31%;
+    }
+    #a-animation{
+        max-height: 50px;
+        overflow: hidden;
+    }
+}
+
+
+
+/* Maximum Width  */
+
+@media screen and (min-width: 1100px){
+
+    .logo-text{
+        margin-right: 250px;
+    }
+    #a-animation{
+        max-height: 50px;
+        overflow: hidden;
+    }
+
+
+
+}
